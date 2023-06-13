@@ -1,5 +1,5 @@
 # Frontend Developer
-Hello there! 👋 I'm a passionate frontend developer with a strong focus on creating intuitive and visually appealing user interfaces. I have extensive experience in React, Next.js, and Vue.js, along with other frontend technologies. In my free time, I enjoy experimenting with WebAssembly (WASM).
+Hello there! 👋 I'm a dedicated frontend developer with a strong focus on creating intuitive and visually appealing user interfaces. I have extensive experience in React, Next.js, and Vue.js, along with other frontend technologies. In my free time, I enjoy experimenting with WebAssembly (WASM).
 
 ## Web3 Integration
 In addition to my frontend skills, I also possess knowledge and experience in integrating web3 technologies into applications. I am familiar with tools such as Web3.js and Ethers.js, enabling me to interact with Ethereum networks and smart contracts. I have worked on decentralized applications (DApps), including implementing DeFi functionalities and ERC20/ERC721 tokens.
