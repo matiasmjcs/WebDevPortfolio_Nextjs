@@ -1,0 +1,104 @@
+.sectionP{
+    margin-bottom: 150px;
+    margin-top: 150px;
+    font-size: 1.3rem;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        text-align: justify;
+}
+
+.section{
+    width: 100%;
+    max-height: 900px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.article {
+    display: grid;
+    justify-items: center;
+    border-radius: 15px;
+    background-color: var(--color3);
+    padding: 10px;
+}
+
+
+
+.iframe {
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+}
+
+.div {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.sectionP h3{
+    text-align: center;
+    margin-bottom: 30px;
+    justify-self: start;
+    align-self: end;
+    color: var(--rose);
+}
+
+.rose {
+    color: var(--rose);
+    justify-self: start;
+}
+
+.tittle svg {
+   color: var(--white);
+   margin-left: 20px; 
+}
+
+.tittle a {
+    text-decoration: none;
+    color: var(--rose)
+}
+
+
+/* inicio media queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Reglas de estilo para pantallas de 300px a 575.98px */
+    .section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr
+    }
+
+    .aboutP {
+        text-align: start;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Reglas de estilo para pantallas de 576px a 767.98px */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Reglas de estilo para pantallas de 768px a 991.98px */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Reglas de estilo para pantallas de 992px a 1199.98px */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Reglas de estilo para pantallas de 1200px en adelante */
+}
+
+/* fin queries */

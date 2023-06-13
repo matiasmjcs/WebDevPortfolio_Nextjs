@@ -1,0 +1,63 @@
+/* inicio nav */
+
+.nav {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid var(--color1);
+}
+
+.nav__divLink {
+    display: grid;
+    grid-column: 1/2;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.nav__divButton {
+    grid-column: 4/5;
+    display: grid;
+    justify-items: center;
+}
+
+.text1 {
+    color: var(--textColor1);
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* fin nav */
+
+/* inicio media queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Reglas de estilo para pantallas de 300px a 575.98px */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Reglas de estilo para pantallas de 576px a 767.98px */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Reglas de estilo para pantallas de 768px a 991.98px */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Reglas de estilo para pantallas de 992px a 1199.98px */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Reglas de estilo para pantallas de 1200px en adelante */
+}
+
+/* fin queries */
