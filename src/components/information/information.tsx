@@ -6,7 +6,7 @@ const Information = (): JSX.Element => {
   return (
     <section className={styles.texto}>
       <span className={styles.spanP}>
-        <h3 className={styles.rose}>About Me</h3>{' '}
+        <h3 className={styles.rose}>About Me</h3>{" "}
         <h3 className={styles.span}>
           <Link target="_blank" href="https://github.com/matiasmjcs">
             <FaGithub />
@@ -17,19 +17,19 @@ const Information = (): JSX.Element => {
           >
             <FaLinkedin />
           </Link>
-            <Link target="_blank" href="https://twitter.com/matiasmjcs">
-              <FaTwitter />
-            </Link>
-        </h3>{' '}
+          <Link target="_blank" href="https://twitter.com/matiasmjcs">
+            <FaTwitter />
+          </Link>
+        </h3>{" "}
       </span>
       <span className={styles.textSpan}>
-        👋Experienced Frontend and Web3 Developer specializing in TypeScript and
-        Solidity. ⚡Passionate about crafting attractive interfaces and
-        leveraging blockchain teccnology. DApp, smart contract, and DeFi
-        enthusiast. 🔮
+        👋 Im a dedicated frontend developer with a strong focus on creating
+        intuitive and visually appealing user interfaces. I have extensive
+        experience in React, Next.js, and Vue.js, along with other frontend
+        technologies. 🔮
       </span>
     </section>
-  )
+  );
 }
 
 export default Information
