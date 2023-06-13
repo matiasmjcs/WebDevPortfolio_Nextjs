@@ -22,11 +22,8 @@ const Information = (): JSX.Element => {
             </Link>
         </h3>{' '}
       </span>
-      <span className={styles.textSpan}>
-        👋Experienced Frontend and Web3 Developer specializing in TypeScript and
-        Solidity. ⚡Passionate about crafting attractive interfaces and
-        leveraging blockchain teccnology. DApp, smart contract, and DeFi
-        enthusiast. 🔮
+        <span className={styles.textSpan}>
+        👋 I'm a dedicated frontend developer with a strong focus on creating intuitive and visually appealing user interfaces. I have extensive experience in React, Next.js, and Vue.js, along with other frontend technologies. 🔮
       </span>
     </section>
   )
