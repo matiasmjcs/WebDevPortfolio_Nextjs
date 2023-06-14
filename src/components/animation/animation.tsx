@@ -60,10 +60,10 @@ export default function Animation() {
   return (
     <section className={styles.section}>
       <ParallaxText baseVelocity={-4}>
-        Hardhat typescript wagmi Web3.js rainbowkit
+        React.js typescript Vue.js Redux React-query
       </ParallaxText>
       <ParallaxText baseVelocity={4}>
-        Next.js Ethers.js Tailwind Truffle Css
+        Next.js Node.js Tailwind HTML CSS
       </ParallaxText>
     </section>
   )
