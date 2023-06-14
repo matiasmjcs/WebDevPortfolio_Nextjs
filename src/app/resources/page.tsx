@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resources = () => {
   return (
-    <main className="container mx-auto px-4 py-8 flex flex-col items-center">
+    <main className="h-full container mx-auto px-4 py-8 flex flex-col items-center">
       <h1 className="text-4xl font-bold mb-4 text-center text-slate-200">
         Bienvenido a mi blog
       </h1>
@@ -14,6 +14,9 @@ const Resources = () => {
             de software!
           </p>
         </article>
+      </section>
+      <section className='h-96 bg-black'>
+
       </section>
     </main>
   );
