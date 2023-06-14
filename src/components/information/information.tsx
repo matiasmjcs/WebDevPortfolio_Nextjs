@@ -33,15 +33,3 @@ const Information = (): JSX.Element => {
 }
 
 export default Information
-
-//       experience in <span className={styles.rose}>Ethereum</span> and its
-//       related technologies. I specialize in technologies such as{' '}
-//       <span className={styles.blue}>TypeScript</span>/
-//       <span className={styles.yellow}>JavaScript</span>,{' '}
-//       <span className={styles.black}>Next.js</span>,{' '}
-//       <span className={styles.sky}>React.js</span>,{' '}
-//       <span className={styles.yellow}>Hardhat</span>,{' '}
-//       <span className={styles.truffle}>Truffle</span>,
-//       <span className={styles.blue}> Ethers.js</span>, Web3.js,{' '}
-//       <span className={styles.green}>Node.js</span>, Wagmi, as well as Express
-//       and <span className={styles.green2}>MongoDB</span>.
