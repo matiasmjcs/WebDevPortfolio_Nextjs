@@ -2,7 +2,7 @@ export const repositories = [
   {
     name: "Portfolio",
     route: "/",
-    github: "Portfolio",
+    github: "new_Portfolio",
     description:
       "Professional website to showcase my projects, contact networks, andreceive messages to my smart contract.",
   },
