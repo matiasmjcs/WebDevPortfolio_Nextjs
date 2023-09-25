@@ -59,11 +59,11 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
 export default function Animation() {
   return (
     <section className={styles.section}>
-      <ParallaxText baseVelocity={-4}>
-        React.js typescript Vue.js Redux React-query
+      <ParallaxText baseVelocity={-2}>
+        React.js typescript Angular Redux React-query
       </ParallaxText>
-      <ParallaxText baseVelocity={4}>
-        Next.js Node.js Tailwind HTML CSS
+      <ParallaxText baseVelocity={2}>
+        Next.js Node.js Tailwind HTML CSS MongoDB Express
       </ParallaxText>
     </section>
   )
