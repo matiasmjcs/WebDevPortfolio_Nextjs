@@ -5,7 +5,7 @@ import { Information } from './information';
 
 export const Main = () => {
   return (
-    <main>
+    <main className='bg-black'>
       <Information />
       <Animation />
       <Project />

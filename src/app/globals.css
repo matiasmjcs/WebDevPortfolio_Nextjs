@@ -49,11 +49,8 @@
 
 html {
   scroll-snap-type: y mandatory;
-}
-
-body {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: #000;
+  color: #fff
 }
 
 /* inicio clases generales */
