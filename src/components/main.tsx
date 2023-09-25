@@ -1,7 +1,7 @@
 import React from 'react'
-import Information from './information';
 import Animation from './animation/animation';
 import { Project } from './projects';
+import { Information } from './information';
 
 export const Main = () => {
   return (

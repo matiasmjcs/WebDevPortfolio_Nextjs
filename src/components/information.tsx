@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
-const Information = (): JSX.Element => {
+export const Information = (): JSX.Element => {
   return (
     <section className="min-h-[150px] max-h-[650px] mx-[16px] grid dark:bg-gray-900 font-bold text-justify p-[20px]  text-white rounded-lg mb-[80px]">
       <span className="grid grid-cols-2">
@@ -20,7 +20,7 @@ const Information = (): JSX.Element => {
         </h3>
       </span>
       <span className="text-start ">
-        👋 I'm a dedicated self-taught software developer with experience 
+        👋 I&apos;m a dedicated self-taught software developer with experience 
         in a wide range of technologies. My focus spans both front-end and 
         back-end development along with other technologies. 🔮
       </span>
@@ -28,4 +28,3 @@ const Information = (): JSX.Element => {
   );
 }
 
-export default Information;
