@@ -1,13 +1,13 @@
 export const repositories = [
   {
-    name: "React Frontend Authentication Project",
+    name: "Frontend Authentication",
     route: "https://github.com/matiasmjcs/authentication-react-vite",
     github: "authentication-react-vite",
     description:
     "Authentication in a React frontend, communicating with a Node.js Express API and MongoDB backend.",
   },
   {
-    name: "Express Authentication Project",
+    name: "Express Authentication",
     route: "https://github.com/matiasmjcs/authentication-express-mongodb",
     github: "authentication-express-mongodb",
     description:
