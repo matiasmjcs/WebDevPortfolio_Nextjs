@@ -10,9 +10,6 @@ Hello there! 👋 I'm a dedicated self-taught software developer with experience
 ## Web3 Integration
 I also have experience in integrating web3 technologies into applications. My skills include working with Ethereum smart contracts using Solidity, utilizing tools like Hardhat, and interacting with Ethereum networks using libraries like Ethers.js and Web3.js. I've contributed to decentralized applications (DApps) and implemented features such as DeFi functionalities and ERC20/ERC721 tokens.
 
-## Collaboration and Continuous Learning
-I thrive in collaborative and agile environments, working effectively within multidisciplinary teams to bring ideas to life. I believe in continuous learning and keeping up-to-date with the latest frontend development trends and practices. This ensures that I deliver the best solutions for my clients and users.
-
 ## Contact Me
 
 - Email: [matiasmejiascisternas@gmail.com](mailto:matiasmejiascisternas@gmail.com)
