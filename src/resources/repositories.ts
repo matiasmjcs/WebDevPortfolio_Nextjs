@@ -25,7 +25,7 @@ export const repositories = [
     route: "/",
     github: "new_Portfolio",
     description:
-      "Professional website to showcase my projects, contact networks, andreceive messages to my smart contract.",
+      "Professional website to showcase my projects and connect with fellow professionals.",
   },
   {
     name: "Medical Center",
