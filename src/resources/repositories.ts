@@ -1,17 +1,17 @@
 export const repositories = [
   {
-    name: "Frontend Authentication",
-    route: "https://github.com/matiasmjcs/authentication-react-vite",
-    github: "authentication-react-vite",
+    name: "Hotel Reservation System",
+    route: "https://github.com/matiasmjcs/hotel-app-express-mongodb",
+    github: "hotel-app-express-mongodb",
     description:
-    "Authentication in a React frontend, communicating with a Node.js Express API and MongoDB backend.",
+      "A hotel reservation application built with Node.js, Express, and MongoDB. It allows users to search for available rooms, make reservations, and manage their profiles."
   },
   {
-    name: "Express Authentication",
-    route: "https://github.com/matiasmjcs/authentication-express-mongodb",
-    github: "authentication-express-mongodb",
+    name: "Hotel Frontend (React)",
+    route: "https://github.com/matiasmjcs/Hotel-app-react-vite",
+    github: "Hotel-app-react-vite",
     description:
-      "Personal project implementing user authentication using Express.js, Node.js, TypeScript, and MongoDB.",
+      "The React interface for a hotel booking application, built with Vite and TypeScript."
   },
   {
     name: "Barber Website",
