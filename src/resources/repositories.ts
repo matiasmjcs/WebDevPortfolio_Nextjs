@@ -1,14 +1,14 @@
 export const repositories = [
   {
-    name: "Hotel Reservation System",
+    name: "Hotel Reservation System Backend",
     route: "https://github.com/matiasmjcs/hotel-app-express-mongodb",
     github: "hotel-app-express-mongodb",
     description:
       "A hotel reservation application built with Node.js, Express, and MongoDB. It allows users to search for available rooms, make reservations, and manage their profiles."
   },
   {
-    name: "Hotel Frontend (React)",
-    route: "https://github.com/matiasmjcs/Hotel-app-react-vite",
+    name: "Hotel  Reservation System Frontend",
+    route: "https://hotel-app-react-vite.vercel.app/",
     github: "Hotel-app-react-vite",
     description:
       "The React interface for a hotel booking application, built with Vite and TypeScript."
