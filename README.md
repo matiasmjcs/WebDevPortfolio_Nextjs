@@ -1,6 +1,8 @@
 ```
 WebDevPortfolio/
 ├── __test__/
+│   ├── header.spec.tsx/
+│   ├── information.spec.tsx/
 │   ├── projects-component.spec.tsx/
 │
 ├── public/
