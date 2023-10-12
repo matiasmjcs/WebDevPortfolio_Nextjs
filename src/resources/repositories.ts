@@ -8,7 +8,7 @@ export const repositories = [
   },
   {
     name: "Hotel  Reservation System Frontend",
-    route: "https://hotel-app-react-vite.vercel.app/",
+    route: "https://hotel-service.netlify.app",
     github: "Hotel-app-react-vite",
     description:
       "The React interface for a hotel booking application, built with Vite and TypeScript."
