@@ -3,9 +3,14 @@ import Animation from './animation/animation';
 import { Project } from './projects';
 import { Information } from './information';
 
+/**
+ * Renders the main component of the application.
+ *
+ * @return {JSX.Element} The main component wrapped in a <main> element with a black background.
+ */
 export const Main = () => {
   return (
-    <main className='bg-black'>
+    <main role='main' className='bg-black'>
       <Information />
       <Animation />
       <Project />

@@ -1,5 +1,4 @@
 'use client'
-import styles from '../../styles/animation.module.css'
 import { useRef } from 'react'
 import {
   motion,
@@ -17,6 +16,14 @@ interface ParallaxProps {
   baseVelocity: number
 }
 
+/**
+ * Renders a parallax effect on a text component.
+ *
+ * @param {ParallaxProps} props - The props for the ParallaxText component.
+ * @param {React.ReactNode} props.children - The text content to be rendered.
+ * @param {number} props.baseVelocity - The base velocity for the parallax effect. Default is 100.
+ * @return {JSX.Element} - The rendered ParallaxText component.
+ */
 function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
   const baseX = useMotionValue(0)
   const { scrollY } = useScroll()
@@ -45,8 +52,8 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
     baseX.set(baseX.get() + moveBy)
   })
   return (
-    <div className={styles.parallax}>
-      <motion.div className={styles.scroller} style={{ x }}>
+    <div className={"parallax"}>
+      <motion.div className={"scroller"} style={{ x }}>
         <span>{children} </span>
         <span>{children} </span>
         <span>{children} </span>
@@ -56,9 +63,14 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
   )
 }
 
+/**
+ * Renders the Animation component.
+ *
+ * @return {JSX.Element} The rendered Animation component.
+ */
 export default function Animation() {
   return (
-    <section className={styles.section}>
+    <section data-testid="animation-component" className={"section"}>
       <ParallaxText baseVelocity={-2}>
         React.js typescript Angular Redux React-query
       </ParallaxText>

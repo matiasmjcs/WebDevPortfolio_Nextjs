@@ -9,7 +9,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
  */
 export const Information = (): JSX.Element => {
   return (
-    <section className="min-h-[150px] max-h-[650px] mx-[16px] grid bg-gray-900 font-bold text-justify p-[20px]  text-white rounded-lg mb-[80px]">
+    <section data-testid="information-component" className="min-h-[150px] max-h-[650px] mx-[16px] grid bg-gray-900 font-bold text-justify p-[20px]  text-white rounded-lg mb-[80px]">
       <span className="grid grid-cols-2">
         <h3 className="text-rose">About Me</h3>
         <h3 className="flex gap-2 justify-self-end">
