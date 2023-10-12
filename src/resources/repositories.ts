@@ -23,7 +23,7 @@ export const repositories = [
   {
     name: "Portfolio",
     route: "/",
-    github: "new_Portfolio",
+    github: "WebDevPortfolio",
     description:
       "Professional website to showcase my projects and connect with fellow professionals.",
   },
