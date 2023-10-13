@@ -13,7 +13,7 @@ export const ProjectsComponent = ({ name, route, github, description }: { name: 
           <FaGithub className="text-white ml-5" />
         </Link>
       </h3>
-      <p className="text-start text-base font-medium">{description}</p>
+      <p data-testid={description} className="text-start text-base font-medium">{description}</p>
     </article>
   );
 };

@@ -1,6 +1,11 @@
 import React from "react";
 import Link from "next/link";
 
+/**
+ * Generates the navigation component.
+ *
+ * @return {JSX.Element} The rendered navigation component.
+ */
 const Nav = (): JSX.Element => {
   return (
     <nav className="w-full h-16 flex items-center bg-black text-white ">

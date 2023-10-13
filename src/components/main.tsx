@@ -2,6 +2,7 @@ import React from 'react'
 import Animation from './animation/animation';
 import { Project } from './projects';
 import { Information } from './information';
+import { repositories } from '@/resources/repositories';
 
 /**
  * Renders the main component of the application.
@@ -13,7 +14,7 @@ export const Main = () => {
     <main role='main' className='bg-black'>
       <Information />
       <Animation />
-      <Project />
+      <Project repositories={repositories} />
     </main>
   );
 }
