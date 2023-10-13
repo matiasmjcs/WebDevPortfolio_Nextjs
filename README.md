@@ -3,7 +3,10 @@ WebDevPortfolio/
 ├── __test__/
 │   ├── header.spec.tsx/
 │   ├── information.spec.tsx/
+│   ├── main.spec.tsx/
+│   ├── nav.spec.tsx/
 │   ├── projects-component.spec.tsx/
+│   ├── projects.spec.tsx/
 │
 ├── public/
 │   ├── favicon.ico
@@ -29,6 +32,9 @@ WebDevPortfolio/
 │   │   ├── nav.tsx
 │   │   ├── project-component.tsx
 │   │   ├── projects.tsx
+│   │
+│   ├── interfaces/
+│   │   ├── repository.interface.ts
 │   │
 │   ├── resources/
 │   │   ├── repositories.ts
