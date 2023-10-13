@@ -25,7 +25,7 @@ export const Information = (): JSX.Element => {
         </h3>
       </span>
       <span data-testid="description" className="text-start">
-        👋 I&apos;m a dedicated self-taught software developer with experience 
+        👋 I&apos;m a self-taught software developer with experience 
         in a wide range of technologies. My focus spans both front-end and 
         back-end development along with other technologies. 🔮
       </span>
