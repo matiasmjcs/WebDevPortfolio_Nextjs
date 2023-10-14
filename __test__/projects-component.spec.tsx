@@ -1,5 +1,5 @@
 import { ProjectsComponent } from "@/components/projects-component"
-import {render, screen} from "@testing-library/react"
+import {render, screen, fireEvent} from "@testing-library/react"
 import { repositories } from "@/resources/repositories"
 
 const repository = repositories[0]
@@ -19,6 +19,7 @@ describe("proyects-component",()=>{
         render(<ProjectsComponent name={repository.name} description={repository.description} github={repository.github} route={repository.route}/>)
         const linkTag = screen.getByTestId(repository.github)
         expect(linkTag).toBeInTheDocument()
+        expect(linkTag).toHaveAttribute('href', `https://github.com/matiasmjcs/${repository.github}`)
     })
     it("tag link (description)",() => {
         render(<ProjectsComponent name={repository.name} description={repository.description} github={repository.github} route={repository.route}/>)
@@ -31,5 +32,6 @@ describe("proyects-component",()=>{
         render(<ProjectsComponent name={repository.name} description={repository.description} github={repository.github} route={repository.route}/>)
         const linkTag = screen.getByTestId(repository.route)
         expect(linkTag).toBeInTheDocument()
+        expect(linkTag).toHaveAttribute('href', repository.route)
     })
 })

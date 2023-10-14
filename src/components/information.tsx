@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { socialMediaUrl } from '@/resources/socialMediaUrl';
 
 /**
  * Renders an information section as a JSX element.
@@ -13,15 +14,15 @@ export const Information = (): JSX.Element => {
       <span className="grid grid-cols-2">
         <h3 className="text-rose">About Me</h3>
         <h3 className="flex gap-2 justify-self-end">
-          <Link data-testid="GitHub" className="text-white" href="https://github.com/matiasmjcs" target="_blank">
+          <a data-testid="GitHub" className="text-white" href={socialMediaUrl.gitHub} target="_blank">
             <FaGithub />
-          </Link>
-          <Link data-testid="LinkedIn" className="text-white" href="https://www.linkedin.com/in/matias-mejias-cisternas/" target="_blank">
+          </a>
+          <a data-testid="LinkedIn" className="text-white" href={socialMediaUrl.linkedIn} target="_blank">
             <FaLinkedin />
-          </Link>
-          <Link data-testid="Twitter" className="text-white" href="https://twitter.com/matiasmjcs" target="_blank">
+          </a>
+          <a data-testid="Twitter" className="text-white" href={socialMediaUrl.twitter} target="_blank">
             <FaTwitter />
-          </Link>
+          </a>
         </h3>
       </span>
       <span data-testid="description" className="text-start">
